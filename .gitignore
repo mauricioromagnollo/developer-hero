@@ -6,6 +6,11 @@ dist
 node_modules
 tsconfig.build.tsbuildinfo
 
+# Env
+.env.*
+!.env.dev
+!.env.test
+
 # Logs
 logs
 *.log
