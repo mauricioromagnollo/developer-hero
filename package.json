@@ -1,13 +1,14 @@
 {
   "name": "doe-backend",
   "version": "0.0.1",
-  "description": "",
-  "author": "Maurício Romagnoli <x0n4d0>",
+  "description": "Backend do aplicativo Doe.",
+  "author": "Maurício Romagnoli ~ x0n4d0 <romagnolimauricio@gmail.com>",
   "private": true,
   "license": "MIT",
   "scripts": {
     "start": "nest start",
     "dev": "STAGE=dev nest start --watch",
+    "dev:docker": "STAGE=dev docker-compose --env-file .env.dev up",
     "prod": "STAGE=prod node dist/main",
     "debug": "STAGE=dev nest start --debug --watch",
     "prebuild": "rimraf dist",
