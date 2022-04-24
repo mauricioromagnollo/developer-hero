@@ -18,9 +18,9 @@
     "test": "STAGE=test jest --passWithNoTests --runInBand --no-cache",
     "test:watch": "npm test -- --watch",
     "test:cov": "npm test -- --coverage",
-    "test:unit": "npm test -- --watch -c jest-unit.config.js",
-    "test:integration": "npm test -- --watch -c jest-int.config.js",
-    "test:e2e": "npm test -- --config ./tests/jest-e2e.config.json",
+    "test:unit": "npm test -- -c jest-unit.config.js",
+    "test:int": "npm test -- -c jest-int.config.js",
+    "test:e2e": "npm test -- -c jest-e2e.config.js",
     "test:staged": "npm test -- --findRelatedTests",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand"
   },
