@@ -29,18 +29,21 @@ npm run test:watch
 
 ## **Techs**
 
-- [Nest.js]
-- [TypeORM]
-- [PostgreSQL]
-- [Commitlint]
-- [Husky] + [Lint Staged] - Hooks para Commits
+- [Nest.js] - Node.js Framework
+- [TypeORM] - Database ORM
+- [PostgreSQL] - Relational Database
+- [Commitlint] - Commit Message Lint
+- [Husky] + [Lint Staged] - Commit Hooks
 - [ESLint] + [Prettier] - Code Style / Linter
-- [DotEnv] - Variáveis de Ambiente
-- [Jest] + [Supertest] - Testes
-- [Docker]
+- [DotEnv] - Environments Variables
+- [Jest] + [Supertest] - Tests
+- [Docker] - Environment Virtualization
 
 <!-- References -->
 
+[nest.js]: https://nestjs.com/
+[postgresql]: https://www.postgresql.org/
+[typeorm]: https://typeorm.io/
 [husky]: https://github.com/typicode/husky
 [lint staged]: https://github.com/okonet/lint-staged
 [eslint]: https://eslint.org/docs/user-guide/getting-started
@@ -49,8 +52,4 @@ npm run test:watch
 [docker]: https://www.docker.com/
 [jest]: https://jestjs.io/
 [supertest]: https://www.npmjs.com/package/supertest
-
-[Commitlint]:
-[PostgreSQL]:
-[TypeORM]:
-[Nest.js]:
+[commitlint]: https://github.com/conventional-changelog/commitlint
