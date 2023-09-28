@@ -1,5 +1,7 @@
 node_modules
 *.txt
+!requirements.txt
 tmp
 coverage
 dist
+site/

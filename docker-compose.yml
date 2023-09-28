@@ -1,0 +1,11 @@
+version: '3'
+services:
+  mkdocs:
+    build:
+      context: .
+    image: my-mkdocs-image
+    container_name: developer-hero-mkdocs
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app

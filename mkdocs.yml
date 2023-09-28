@@ -1,0 +1,34 @@
+site_name: Developer Hero
+site_author: Maurício Romagnollo
+repo_url: https://github.com/mauricioromagnollo/developer-hero/
+nav:
+  - Home: '../'
+  # - Home: index.md
+  - About: about.md
+  - Tecnologias:
+    - JavaScript:
+      - Introdução: tecnologias/javascript/introducao.md
+    - ReactJS:
+      - Introdução: tecnologias/reactjs/introducao.md
+    - NodeJS:
+      - Introdução: tecnologias/nodejs/introducao.md
+    - Golang:
+      - Introdução: tecnologias/golang/introducao.md
+# not_in_nav: |
+#   /private.md
+theme:
+  name: material
+  favicon: img/favicon.ico
+  logo: img/favicon.ico
+  palette:
+    accent: 'cyan'
+  #   primary: 'green'
+  #   background: 'black'
+  #   text: 'blue-grey'
+
+exclude_docs: |
+  api-config.json    # A file with this name anywhere.
+  drafts/            # A "drafts" directory anywhere.
+  /requirements.txt  # Top-level "docs/requirements.txt".
+  *.py               # Any file with this extension anywhere.
+  !/foo/example.py   # But keep this particular file.
