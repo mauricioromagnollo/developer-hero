@@ -1,6 +1,24 @@
 <div align='justify'>
 
-![](./.github/img/cover.png)
+![](./.github/assets/cover.png)
+
+## **Tecnologias e Ferramentas**
+
+- [Markdown]()
+- [Python]()
+- [MkDocs](https://www.mkdocs.org/)
+- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+- [Github Actions]()
+- [Github Pages]()
+- [Docker]()
+
+## **Rodando o Projeto**
+
+```sh
+make dev
+```
+
+O projeto estará disponível em [http://localhost:8000](http://localhost:8000/).
 
 ## **Licensa**
 
