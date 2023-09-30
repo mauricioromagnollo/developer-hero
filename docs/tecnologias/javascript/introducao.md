@@ -2,7 +2,7 @@
 
 ---
 
-![JS](img/javascript.png)
+![JS](assets/javascript.png)
 
 ```js
 console.log('Hello World!)

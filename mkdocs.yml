@@ -84,8 +84,8 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
-  - toc:
-      permalink: true
+  # - toc:
+  #     permalink: true
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
@@ -126,7 +126,6 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-
 # =====================================
 # Exclude Files When Compile
 # =====================================
@@ -161,7 +160,6 @@ not_in_nav: |
 # =====================================
 nav:
   - Home: '../'
-  - About: about.md
   - Tecnologias:
     - JavaScript:
       - Introdução: tecnologias/javascript/introducao.md
@@ -174,3 +172,6 @@ nav:
       - Instalação e Configuração: tecnologias/golang/02-instalacao.md
       - Fundamentos:
         - Variáveis: tecnologias/golang/fundamentos/variaveis.md
+    - TypeScript:
+      - Introdução: tecnologias/typescript/introducao.md
+  - Links: links.md
