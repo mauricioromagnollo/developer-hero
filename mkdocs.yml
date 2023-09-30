@@ -159,7 +159,7 @@ not_in_nav: |
 # Navigation
 # =====================================
 nav:
-  - Home: '../'
+  - Home: 'index.md'
   - Tecnologias:
     - JavaScript:
       - Introdução: tecnologias/javascript/introducao.md
@@ -168,8 +168,8 @@ nav:
     - NodeJS:
       - Introdução: tecnologias/nodejs/introducao.md
     - Golang:
-      - Introdução: tecnologias/golang/01-introducao.md
-      - Instalação e Configuração: tecnologias/golang/02-instalacao.md
+      - About: tecnologias/golang/about.md
+      - Setup: tecnologias/golang/setup.md
       - Fundamentos:
         - Variáveis: tecnologias/golang/fundamentos/variaveis.md
     - TypeScript:
