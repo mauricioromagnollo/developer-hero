@@ -136,6 +136,7 @@ exclude_docs: |
   drafts/
   *.py
   !/foo/example.py
+  tmp/
 
 # =====================================
 # Footer
@@ -164,19 +165,23 @@ not_in_nav: |
 nav:
   - Home: 'index.md'
   - Techs:
-    - JavaScript:
-      - Introdução: techs/javascript/introducao.md
-    - ReactJS:
-      - Introdução: techs/reactjs/introducao.md
-    - NodeJS:
-      - Introdução: techs/nodejs/introducao.md
+    # - JavaScript:
+    #   - Intro: techs/javascript/intro.md
+    # - ReactJS:
+    #   - Intro: techs/reactjs/intro.md
+    # - NodeJS:
+    #   - Intro: techs/nodejs/intro.md
+    # - TypeScript:
+    #   - Introdução: techs/typescript/intro.md
     - Golang:
-      - About: techs/golang/about.md
+      - Intro: techs/golang/intro.md
       - Setup: techs/golang/setup.md
       - Base:
-        - Func: techs/golang/base/func.md
+        - Var & Const: techs/golang/base/var-const.md
+        - Array & Slice: techs/golang/base/array-slice.md
+        - Map: techs/golang/base/map.md
+        - Functions: techs/golang/base/functions.md
+        - Types: techs/golang/base/types.md
+        - Package: techs/golang/base/package.md
         - Struct: techs/golang/base/struct.md
-        - Variáveis: techs/golang/base/variaveis.md
-    - TypeScript:
-      - Introdução: techs/typescript/introducao.md
   - Links: links.md
