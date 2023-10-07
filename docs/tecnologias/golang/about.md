@@ -1,4 +1,3 @@
-<div align='justify'>
 
 # **Introdução a Go**
 
@@ -26,7 +25,9 @@ A linguagem Go é uma linguagem de programação Open Source, que foi criada pel
 
 A linguagem começou a ser projetada em Setembro de 2007 e a versão 1.0 da linguagem saiu em 2012. A partir da versão 1.5 da linguagem, o seu próprio compilador foi feito em Go.
 
+
 ## **Características de Go**
+
 
 - **A linguagem tem como objetivo a produtividade**;
 - **É uma linguagem expressiva, concisa, limpa e eficiente**: Em muitas linguagens de programação, temos várias formas de fazer a mesma coisa e temos várias palavras reservadas. A linguagem Go vai ao caminho inverso disso, trazendo uma simplicidade na quantidade de palavras chave e com poucos recursos, mas o suficiente;
@@ -42,4 +43,3 @@ A linguagem começou a ser projetada em Setembro de 2007 e a versão 1.0 da ling
 - Repositório: [https://github.com/golang/go](https://github.com/golang/go)
 - Playground: [https://go.dev/play/](https://go.dev/play/)
 
-</div>
