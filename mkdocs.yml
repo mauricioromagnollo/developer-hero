@@ -163,18 +163,20 @@ not_in_nav: |
 # =====================================
 nav:
   - Home: 'index.md'
-  - Tecnologias:
+  - Techs:
     - JavaScript:
-      - Introdução: tecnologias/javascript/introducao.md
+      - Introdução: techs/javascript/introducao.md
     - ReactJS:
-      - Introdução: tecnologias/reactjs/introducao.md
+      - Introdução: techs/reactjs/introducao.md
     - NodeJS:
-      - Introdução: tecnologias/nodejs/introducao.md
+      - Introdução: techs/nodejs/introducao.md
     - Golang:
-      - About: tecnologias/golang/about.md
-      - Setup: tecnologias/golang/setup.md
-      - Fundamentos:
-        - Variáveis: tecnologias/golang/fundamentos/variaveis.md
+      - About: techs/golang/about.md
+      - Setup: techs/golang/setup.md
+      - Base:
+        - Func: techs/golang/base/func.md
+        - Struct: techs/golang/base/struct.md
+        - Variáveis: techs/golang/base/variaveis.md
     - TypeScript:
-      - Introdução: tecnologias/typescript/introducao.md
+      - Introdução: techs/typescript/introducao.md
   - Links: links.md
