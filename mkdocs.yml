@@ -8,7 +8,7 @@ site_author: Maurício Romagnollo
 # =====================================
 # Repository
 # =====================================
-repo_name: mauricioroma/developer-hero
+repo_name: Github
 repo_url: https://github.com/mauricioromagnollo/developer-hero/
 
 # =====================================
@@ -163,7 +163,7 @@ not_in_nav: |
 # Navigation
 # =====================================
 nav:
-  - Home: 'index.md'
+  - Developer Hero: 'index.md'
   - Techs:
     # - JavaScript:
     #   - Intro: techs/javascript/intro.md
@@ -176,6 +176,7 @@ nav:
     - Golang:
       - Intro: techs/golang/intro.md
       - Setup: techs/golang/setup.md
+      - Links: techs/golang/links.md
       - Base:
         - Var & Const: techs/golang/base/var-const.md
         - Array & Slice: techs/golang/base/array-slice.md
@@ -184,4 +185,5 @@ nav:
         - Types: techs/golang/base/types.md
         - Package: techs/golang/base/package.md
         - Struct: techs/golang/base/struct.md
+        - Interface: techs/golang/base/interface.md
   - Links: links.md

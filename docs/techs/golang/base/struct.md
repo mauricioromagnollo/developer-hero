@@ -1,6 +1,11 @@
 # **Struct**
+---
 
-A linguagem Go, não é Orientada a Objetos. Os desenvolvedores do Go, dizem que o Go tem o "Go Way" de programar.
+!!! info "A linguagem Go não é Orientada a Objetos! Mas a linguagem trouxe algumas inspirações de OO. Os desenvolvedores da linguagem dizem que existe o "Go Way" de programar."
+
+---
+
+## Custom Types
 
 ```go
 package main
@@ -81,7 +86,7 @@ func main() {
 }
 ```
 
-## Struct e Type
+## Struct Methods
 
 O Go trouxe o método como inspiração da Orientação a Objetos para a linguagem, apesar de não ser uma linguagem orientada a objetos.
 
@@ -103,3 +108,4 @@ type produto struct {
 func (p produto) precoComDesconto() float64 {
 	return p.preco * (1 - p.desconto)
 }
+```
