@@ -5,12 +5,18 @@ on:
     branches:
       - master
     ignore_paths:
-      - README.md
+      - .github/assets/**
+      - sources/**
+      - site/**
+      - .editorconfig
+      - docker-compose.yml
+      - Dockerfile
+      - LICENSE
       - Makefile
+      - README.md
       - .gitignore
       - .python-version
       - .vscode/**
-      - site/**
       - .pytest_cache/**
       - .mypy_cache/**
       - .coverage
