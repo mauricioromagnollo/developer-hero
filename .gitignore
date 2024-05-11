@@ -5,3 +5,4 @@ tmp
 coverage
 dist
 site/
+.DS_Store
