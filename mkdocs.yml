@@ -26,7 +26,7 @@ not_in_nav: |
 # Navigation
 # =====================================
 nav:
-  - Developer Hero: 'index.md'
+  - Home: 'index.md'
   - Techs:
     # - JavaScript:
     #   - Intro: techs/javascript/intro.md
