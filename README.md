@@ -7,6 +7,7 @@
 - [Markdown]()
 - [Python]()
 - [MkDocs](https://www.mkdocs.org/)
+ 	- <https://squidfunk.github.io/mkdocs-material/reference/diagrams/>
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 - [Github Actions]()
 - [Github Pages]()
